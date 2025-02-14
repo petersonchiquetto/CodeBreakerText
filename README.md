@@ -14,7 +14,7 @@ CodeBreakerText is a simple yet engaging game that challenges players to deciphe
 
 ### Prerequisites
 
-Make sure you have JavaSciprt installed on your system.
+Make sure you have JavaScript installed on your system.
 
 ### Steps to Run the Game
 
