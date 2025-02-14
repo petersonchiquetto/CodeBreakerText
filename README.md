@@ -48,7 +48,7 @@ python main.py
 
 ## 📝 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. *(Create a LICENSE file in your repository and add the MIT license text.)*
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 
 
 ## 🤝 Contributing
 
