@@ -1,14 +1,14 @@
-let alfabeto = 'abcdefghijklmnopqrstuvwxyz';
-let numeros = '0123456789';
+var alfabeto = 'abcdefghijklmnopqrstuvwxyz';
+var numeros = '0123456789';
 
 function decifrar() {
-    let textoCifrado = document.getElementById('cifrado').value.trim();
+    var textoCifrado = document.getElementById('cifrado').value.trim();
 
-    let textoDecifrado = '';
+    var textoDecifrado = '';
 
-    for (let i = 0; i < textoCifrado.length; i++) {
-        let caractereCifrado = textoCifrado[i].toLowerCase();
-        let caractereDecifrado = realizarConversao(caractereCifrado);
+    for (var i = 0; i < textoCifrado.length; i++) {
+        var caractereCifrado = textoCifrado[i].toLowerCase();
+        var caractereDecifrado = realizarConversao(caractereCifrado);
         textoDecifrado += caractereDecifrado;
     }
 
@@ -21,8 +21,8 @@ function realizarConversao(caractereCifrado) {
     }
 
     if (numeros.indexOf(caractereCifrado) != -1) {
-        let posicaoCaractereCifrado = numeros.indexOf(caractereCifrado);
-        let posicaoCaractereDecifrado = posicaoCaractereCifrado - 3;
+        var posicaoCaractereCifrado = numeros.indexOf(caractereCifrado);
+        var posicaoCaractereDecifrado = posicaoCaractereCifrado - 3;
     
         //se ficar negativo precisa ir para o final do array
         if (posicaoCaractereDecifrado < 0) {
@@ -48,8 +48,8 @@ function realizarConversao(caractereCifrado) {
         caractereCifrado = 'c';
     }
     
-    let posicaoCaractereCifrado = alfabeto.indexOf(caractereCifrado);
-    let posicaoCaractereDecifrado = posicaoCaractereCifrado - 3;
+    var posicaoCaractereCifrado = alfabeto.indexOf(caractereCifrado);
+    var posicaoCaractereDecifrado = posicaoCaractereCifrado - 3;
 
     //se ficar negativo precisa ir para o final do array
     if (posicaoCaractereDecifrado < 0) {
